@@ -2692,7 +2692,7 @@ class NextFile(object):
         return os.path.join(self.path_name, '%c%c' % (ord('A') + char2, ord('A') + char1))
 
     def _filepath(self):
-        return '%s/wiki_%02d' % (self._dirname(), self.file_index)
+        return '%s/wiki_%09d' % (self._dirname(), self.file_index)
 
 
 class OutputSplitter(object):
