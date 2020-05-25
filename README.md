@@ -5,6 +5,10 @@ The tool is written in Python and requires Python 2.7 or Python 3.3+ but no addi
 
 For further information, see the [project Home Page](http://medialab.di.unipi.it/wiki/Wikipedia_Extractor) or the [Wiki](https://github.com/attardi/wikiextractor/wiki).
 
+
+# Extract each article to a new file:
+`python WikiExtractor.py "URL_TO_BZ2_DUMP" -b 0K -o extracted --json`
+
 # Wikipedia Cirrus Extractor
 
 `cirrus-extractor.py` is a version of the script that performs extraction from a Wikipedia Cirrus dump.
