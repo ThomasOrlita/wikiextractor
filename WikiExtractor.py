@@ -3105,7 +3105,7 @@ def reduce_process(opts, output_queue, spool_length,
 # ----------------------------------------------------------------------
 
 # Minimum size of output files
-minFileSize = 200 * 1024
+minFileSize = 0
 
 def main():
 
